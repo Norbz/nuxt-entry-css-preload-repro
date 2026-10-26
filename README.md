@@ -6,6 +6,8 @@ its content changes. The chunk lists `entry.<hash>.css` among the files to
 preload before the import (`__vite__mapDeps`), and that hash is part of the
 content but not of the file name.
 
+Tracked in [nuxt/nuxt#36136](https://github.com/nuxt/nuxt/issues/36136).
+
 ## Reproduction
 
 ```bash
