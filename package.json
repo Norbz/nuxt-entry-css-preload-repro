@@ -1,0 +1,16 @@
+{
+  "name": "nuxt-entry-css-preload-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "repro": "node repro.mjs",
+    "repro:control": "ENTRY_IMPORT_MAP=false node repro.mjs",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "4.6.2",
+    "vue": "^3.5.0"
+  }
+}
